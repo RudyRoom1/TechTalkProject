@@ -19,6 +19,7 @@ public class ListServlet extends HttpServlet {
         req.setAttribute("userNames",names);
 
         RequestDispatcher requestDispatcher = req.getRequestDispatcher("views/list.jsp");
+        RequestDispatcher requestDispatcher1 = req.getRequestDispatcher("views/list.jsp");
         requestDispatcher.forward(req, resp);
     }
 }
