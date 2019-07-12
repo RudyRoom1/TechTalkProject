@@ -24,6 +24,7 @@ public class AddServlet extends HttpServlet {
         String name = req.getParameter("name");
         String name = req.getParameter("name");
         String password = req.getParameter("password");
+        String password = req.getParameter("password");
         User user = new User(name, password);
         Model model = Model.getInstance();
         model.add(user);
