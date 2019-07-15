@@ -8,7 +8,6 @@ import java.util.stream.Collectors;
 
 public class Model {
     private static Model instance = new Model();
-    private static Model instance1 = new Model();
 
     private List<User> model;
 
