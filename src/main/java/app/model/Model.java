@@ -29,4 +29,9 @@ public class Model {
                 .collect(Collectors.toList());
     }
 
+    public static final method (){
+        System.out.println();
+        System.out.println();
+    }
+
 }
