@@ -22,6 +22,8 @@ public class AddServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String name = req.getParameter("name");
+        String name = req.getParameter("name");
+        String password = req.getParameter("password");
         String password = req.getParameter("password");
         User user = new User(name, password);
         Model model = Model.getInstance();
