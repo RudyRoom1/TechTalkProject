@@ -10,8 +10,6 @@ public class Model {
     private static Model instance = new Model();
 
     private List<User> model;
-    private List<User> model1;
-
 
     public static Model getInstance() {
         return instance;
