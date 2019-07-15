@@ -31,6 +31,7 @@ public class Model {
 
     public static final method (){
         System.out.println();
+        System.out.println();
     }
 
 }
