@@ -10,8 +10,6 @@ public class Model {
     private static Model instance = new Model();
 
     private List<User> model;
-    private List<User> model1;
-
 
     public static Model getInstance() {
         return instance;
@@ -29,6 +27,11 @@ public class Model {
         return model.stream()
                 .map(User::getName)
                 .collect(Collectors.toList());
+    }
+
+    public static final method (){
+        System.out.println();
+        System.out.println();
     }
 
 }
